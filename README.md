@@ -7,15 +7,15 @@ Visit the live demo at: [csc13114-hw1.vercel.app](https://csc13114-hw1.vercel.ap
 
 - [x] For the current move only, show "You are at move #…" instead of a button: 1.8 points.
 
-- [x] Rewrite the Board to use two loops to make the squares instead of hardcoding them: 1.8 points.The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [x] Rewrite the Board to use two loops to make the squares instead of hardcoding them: 1.8 points.
 
 - [x] Add a toggle button that lets you sort the moves in either ascending or descending order: 1.8 points.
 
-- [x] When someone wins, highlight the three squares that caused the win (and when no one wins, display a message about the result being a draw): 1.8 points.## Expanding the ESLint configuration
+- [x] When someone wins, highlight the three squares that caused the win (and when no one wins, display a message about the result being a draw): 1.8 points.
 
 - [x] Display the location for each move in the format (row, col) in the move history list: 1.8 points.
 
-- [x] Upload to a public host: 1 pointIf you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] Upload to a public host: 1 point.
 
 ## Running Locally
 
