@@ -1,16 +1,79 @@
-# React + Vite
+# 22127126 - Tic Tac Toe Game
+## Live Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visit the live demo at: [csc13114-hw1.vercel.app](https://csc13114-hw1.vercel.app)
 
-Currently, two official plugins are available:
+## Self Assessment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [x] For the current move only, show "You are at move #…" instead of a button: 1.8 points.
 
-## React Compiler
+- [x] Rewrite the Board to use two loops to make the squares instead of hardcoding them: 1.8 points.The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [x] Add a toggle button that lets you sort the moves in either ascending or descending order: 1.8 points.
 
-## Expanding the ESLint configuration
+- [x] When someone wins, highlight the three squares that caused the win (and when no one wins, display a message about the result being a draw): 1.8 points.## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] Display the location for each move in the format (row, col) in the move history list: 1.8 points.
+
+- [x] Upload to a public host: 1 pointIf you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Running Locally
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/hoangfitus/csc13114-hw1.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd csc13114-hw1
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Board.jsx   # Game board component with dynamic grid generation
+│   ├── Game.jsx    # Main game logic and state management
+│   └── Square.jsx  # Individual square component
+├── styles/
+│   └── styles.css  # Styled with modern CSS features
+├── utils/
+│   └── gameLogic.js # Game logic utilities
+├── App.jsx
+└── main.jsx
+```
+
+## Technologies Used
+
+- React + Vite for fast development and optimal production build
+- Modern CSS (CSS Variables, Flexbox, Grid) for responsive design
+- Vercel for seamless deployment and hosting
